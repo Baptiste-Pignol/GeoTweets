@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="OpenLayers-2.13.1/OpenLayers.js"></script>
+		<script src="projet.js"></script>
+		<link rel="stylesheet" type="text/css" href="projet.css">
+    	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    	<title>TP7 - Cartographie de tweets</title>
+	</head>
+	<body>
+		<header>
+			<form>
+				 <input type="text" id="hashtag" value="#hashtag"/>
+				 <button>Rafraichir</button>
+				 <SELECT name="nom" size="1">
+					<OPTION> Français </OPTION>
+					<OPTION> Anglais </OPTION>
+				</SELECT>
+			</form>
+		</header>
+		<div id="content">
+			<div id="carte">
+			</div>
+			<div id="listeTweets">
+				<h2 class="titreListeTweets">Tweets retrouvés</h2>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+				<div class="tweetFonce"><p>@tweet un super tweet<p></div>
+				<div class="tweetClair"><p>@tweet un super tweet<p></div>
+			</div>
+		</div>
+		<footer>
+			<form>
+				<INPUT type="checkbox" name="lierTweet" id="lierTweet" value="0">
+				<label for="lierTweet">lier les tweets</label> <br />
+				<INPUT type="checkbox" name="grossirTweet" id="grossirTweet" value="1">
+				<label for="grossirTweet">grossir les tweets selon leur importance </label> 
+			</form>
+		</footer>
+	</body>
+</html>

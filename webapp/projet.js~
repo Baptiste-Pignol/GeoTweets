@@ -1,0 +1,6 @@
+var map = new OpenLayers.Map('carte');
+var wms = new OpenLayers.Layer.OSM(
+  "OpenLayers WMS",
+  {'layers':'basic'} );
+map.addLayer(wms);
+map.zoomToMaxExtent();
